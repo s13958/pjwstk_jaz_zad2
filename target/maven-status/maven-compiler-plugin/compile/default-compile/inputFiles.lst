@@ -1,0 +1,14 @@
+/home/dfranciszczak/jaz/zadanie2/src/main/java/servlets/UserListServlet.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/filters/RegistrationAndLoginFilter.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/servlets/ProfileServlet.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/users/UserRole.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/users/User.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/filters/PermissionFilter.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/filters/PremiumFilter.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/servlets/PermissionsServlet.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/repository/UserManagementRepository.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/servlets/RegistrationServlet.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/servlets/LoginServlet.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/repository/HyperSQLUserManagementRepository.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/filters/ProfileFilter.java
+/home/dfranciszczak/jaz/zadanie2/src/main/java/repository/DummyUserManagementRepository.java
