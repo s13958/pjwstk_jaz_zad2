@@ -22,7 +22,7 @@ public class UserListServlet extends HttpServlet {
 		super();
 	}
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		UserManagementRepository db = HyperSQLUserManagementRepository.getInstance();
 		List<User> dbusers = db.getUsers();
@@ -40,7 +40,7 @@ public class UserListServlet extends HttpServlet {
 		request.getRequestDispatcher("includes/footer.html").include(request, response);
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doGet(request, response);
 	}

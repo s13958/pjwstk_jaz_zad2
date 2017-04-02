@@ -20,7 +20,7 @@ public class RegistrationServlet extends HttpServlet {
 		super();
 	}
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
@@ -40,11 +40,11 @@ public class RegistrationServlet extends HttpServlet {
 		if (db.registrate(user)) {
 			response.sendRedirect("login.jsp");
 		} else {
-			response.getWriter().println("REGISTRATION ERROR!");
+			response.sendRedirect("errorpage.jsp");
 		}
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doGet(request, response);
 	}
